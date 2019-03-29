@@ -1,0 +1,18 @@
+import java.util.*;
+public class Niven{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in)
+int a,r=0,s=0
+System.out.println("Enter a number");
+a=sc.nextInt();
+while(a!=0){
+r=a%10;
+s+=r;
+a=a/10;
+}
+if(s%9==0)
+System.out.println("Niven Number"):
+else
+System.out.println("Not a Niven Number");
+}
+}
